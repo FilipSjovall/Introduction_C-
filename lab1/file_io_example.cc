@@ -6,11 +6,14 @@
 void print_bytes(std::string infile)
 {
     std::ifstream in{infile};
-
+    std::ofstream outfile;
     int c;
-    while((c = in.get()) != EOF ) {
+    char ch;
+    while((c = in.get()) != EOF ) 
+    {
         std::cout << "read: " << std::setw(3) << c << " [" << char(c) << "]" << std::endl;
     }
+    
 }
 
 int main(int argc, char* argv[])
