@@ -1,11 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "../../Level set topology"
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "lab1"
+        }
+    ]
 }
