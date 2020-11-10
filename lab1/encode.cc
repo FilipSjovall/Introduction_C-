@@ -12,9 +12,9 @@ int main(int argc, char* argv[])
     std::ifstream in{argv[1]};
     char ch;
     while( in.get(ch)  ) {
-        out << static_cast<char>(ch + 1);
+        out << static_cast<char>(ch + 1); // utanför intervall - char? borde använt unsigned char
     }
-    out.close();
+    // out.close(); 
     return 0;
 }
 

@@ -14,6 +14,7 @@ size_type Editor::get_size() const
 size_type Editor::find_left_par(size_type pos) const {
     char a;
     char b;
+    // pos mindre än strängens längd
     if(text[pos]==')'){
          a = '(';
          b = ')';
@@ -32,7 +33,7 @@ size_type Editor::find_left_par(size_type pos) const {
     }
     
     int cnt = 0;
-    for( int i = pos ; i>0 ; i--){
+    for( int i = pos ; i>0 ; i--){ 
         
         if(text[i]==a){
             cnt --;
@@ -41,7 +42,8 @@ size_type Editor::find_left_par(size_type pos) const {
             cnt ++;
         }
         if(cnt==0){
-            return i;
+            return i; // i är en position
         }
     }
+    return string::npos; //
 }
