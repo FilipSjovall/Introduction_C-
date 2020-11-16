@@ -6,27 +6,50 @@
 #include <unordered_set>
 #include "word.h"
 #include "dictionary.h"
+#include <sstream>
 
 using namespace std;
 
 
 Dictionary::Dictionary() {
-	fstream in;
-	in.open("word.txt");
-	string c;
-	c >> in;
-  unordered_set<string> wordlist;
-	for(int i = 0; i<c.size(); i++){
+	fstream in("words.txt");
+	unordered_set<string> wordlist;
+	string line;
+	
 
+	// Extract chararcters until the delimiter ' ' is found
+	while( getline(in, line) ){
+		string tmp = line.substr(0,line.find(" "));
+		wordlist.insert(tmp);	
 	}
+	vector<Word> words[20];
+	// Samma loop två gånger..... borde finnas ett bättre sätt.
+	while( getline(in, line) ){
+		string tmp = line.substr(0,line.find(" "));
+		wordlist.insert(tmp);	
+	
+			vector<string> trigrams;
+		string a = line.substr(line.find(" "), line.size());
+		istringstream stream(a);
+		string s;
+		while(stream >> s){
+			trigrams.push_back(s); // Kunde använt iterator här?
+		}
+		words[tmp.length()].push_back( Word(tmp, trigrams) );	
+		}
 }
 
 
 // Supposed to be fast
 bool Dictionary::contains(const string& word) const { 
+	// snabb???
 	bool check = false;
+	if(wordlist.find(word)!= wordlist.end()){
+		check=true;
+	}
 	return check;
 }
+
 vector<string> Dictionary::get_suggestions(const string& word) const {
 	// Speed is not a priority
 	vector<string> suggestions;
