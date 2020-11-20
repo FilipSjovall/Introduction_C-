@@ -1,12 +1,15 @@
 #include <string>
 #include <vector>
+#include <algorithm>
 #include "word.h"
+#include <iterator>
 
-using std::vector;
-using std::string;
+using namespace std;
 
-Word::Word(const string& w, const vector<string>& t) {
-
+Word::Word(const string& w, const vector<string>& t) : dw{w}, trigrams{t}  {
+	// const std::string dw = w;
+	// const std::vector<std::string> trigrams = t;
+	// Java-style... smidigare sätt för member variables?
 }
 
 string Word::get_word() const {
@@ -17,17 +20,11 @@ unsigned int Word::get_matches(const vector<string>& t) const {
 	char c;
 	unsigned int cnt = 0;
 	
-	// Alt 0
-	cnt = t.size()-1;
-	
-	// Alt 1
-	// cnt = (int)t[0][0]-'0'; // if the number of trigrams is included
-	
-	// ALT 2
-	// for(string::size_type i = 0; i < t.size(); i++){ // if the number of trigrams is not included
-	//	if(i==' '){
-	//		cnt++;
-	//	}
-	//}
+	for(int it = 0 ;it<t.size()-1; it++){
+			if(find(trigrams.begin(), trigrams.end(), t[it]) != trigrams.end() && t[it] != t[it+1] ){
+				cnt++;		
+			}
+	}
+
 	return cnt+1;
 }

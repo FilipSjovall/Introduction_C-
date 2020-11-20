@@ -9,7 +9,7 @@
 using namespace std;
 
 // get the trigrams
-void get_trigrams(vector<string> &trigrams,const string &line){
+void get_trigrams(vector<string> trigrams,const string &line){ // &trigrams or not?
   if(line.size()>2){
     for(string::size_type i = 0; i<line.size()-2; i++){
       trigrams.push_back(line.substr(i,3));
