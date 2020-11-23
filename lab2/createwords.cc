@@ -9,9 +9,10 @@
 using namespace std;
 
 // get the trigrams
-void get_trigrams(vector<string> trigrams,const string &line){ // &trigrams or not?
+void get_trigrams(vector<string> &trigrams,const string &line){ // &trigrams or not?
+  
   if(line.size()>2){
-    for(string::size_type i = 0; i<line.size()-2; i++){
+    for(int i = 0; i<line.size()-2; i++){
       trigrams.push_back(line.substr(i,3));
     }
   }
@@ -23,11 +24,11 @@ int main() {
   ofstream out("words.txt");
   textfile.open("/usr/share/dict/words"); // UTF-8 encoded
   while ( getline(textfile, line)){
-    vector<string> trigrams;
+    vector<string> trigrams{};
     
     transform(line.begin(), line.end(), line.begin(), ::tolower); // Change line to lower case.
     get_trigrams(trigrams,line);                                  // Get the trigrams
-    int nbr_tigs{trigrams.size()};                                // The number of trigrams.
+    int nbr_tigs= trigrams.size();                                // The number of trigrams.
     if(nbr_tigs>0){
       sort(trigrams.begin(),trigrams.end());                        // Sort the trigrams
       out << line << " " << nbr_tigs  << " ";                       // Write to file

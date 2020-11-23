@@ -4,6 +4,8 @@ amd 1 amd
 amd's 3 amd d's md' 
 aol 1 aol 
 aol's 3 aol l's ol' 
+aws 1 aws 
+aws's 3 aws s's ws' 
 aachen 4 aac ach che hen 
 aachen's 6 aac ach che en' hen n's 
 aaliyah 5 aal ali iya liy yah 
@@ -524,6 +526,8 @@ alsop 3 als lso sop
 alsop's 5 als lso op' p's sop 
 alston 4 als lst sto ton 
 alston's 6 als lst n's on' sto ton 
+altaba 4 aba alt lta tab 
+altaba's 6 a's aba alt ba' lta tab 
 altai 3 alt lta tai 
 altai's 5 ai' alt i's lta tai 
 altaic 4 aic alt lta tai 
@@ -617,6 +621,8 @@ amerindians 9 ame ans dia eri ian ind mer ndi rin
 amerinds 6 ame eri ind mer nds rin 
 ameslan 5 ame esl lan mes sla 
 ameslan's 7 ame an' esl lan mes n's sla 
+amgen 3 amg gen mge 
+amgen's 5 amg en' gen mge n's 
 amharic 5 amh ari har mha ric 
 amharic's 7 amh ari c's har ic' mha ric 
 amherst 5 amh ers her mhe rst 
@@ -987,6 +993,8 @@ arcturus 6 arc ctu rct rus tur uru
 arcturus's 8 arc ctu rct rus s's tur uru us' 
 arden 3 ard den rde 
 arden's 5 ard den en' n's rde 
+arduino 5 ard dui ino rdu uin 
+arduino's 7 ard dui ino no' o's rdu uin 
 arequipa 6 are equ ipa qui req uip 
 arequipa's 8 a's are equ ipa pa' qui req uip 
 ares 2 are res 
@@ -1483,6 +1491,8 @@ bahia 3 ahi bah hia
 bahia's 5 a's ahi bah hia ia' 
 bahrain 5 ahr ain bah hra rai 
 bahrain's 7 ahr ain bah hra in' n's rai 
+baidu 3 aid bai idu 
+baidu's 5 aid bai du' idu u's 
 baikal 4 aik bai ika kal 
 baikal's 6 aik al' bai ika kal l's 
 bailey 4 ail bai ile ley 
@@ -2090,6 +2100,8 @@ biden 3 bid den ide
 biden's 5 bid den en' ide n's 
 bierce 4 bie erc ier rce 
 bierce's 6 bie ce' e's erc ier rce 
+bigquery 6 big ery gqu igq que uer 
+bigquery's 8 big ery gqu igq que ry' uer y's 
 bigfoot 5 big foo gfo igf oot 
 bigfoot's 7 big foo gfo igf oot ot' t's 
 biggles 5 big ggl gle igg les 
@@ -2110,6 +2122,8 @@ billy 3 bil ill lly
 billy's 5 bil ill lly ly' y's 
 bimini 4 bim imi ini min 
 bimini's 6 bim i's imi ini min ni' 
+biogen 4 bio gen iog oge 
+biogen's 6 bio en' gen iog n's oge 
 bioko 3 bio iok oko 
 bioko's 5 bio iok ko' o's oko 
 bird 2 bir ird 
@@ -2860,6 +2874,8 @@ byzantium 7 ant byz ium nti tiu yza zan
 byzantium's 9 ant byz ium m's nti tiu um' yza zan 
 c 0 
 c's 1 c's 
+css 1 css 
+css's 3 css s's ss' 
 cvs 1 cvs 
 cvs's 3 cvs s's vs' 
 ca 0 
@@ -3352,6 +3368,8 @@ celebes 5 bes cel ebe ele leb
 celebes's 7 bes cel ebe ele es' leb s's 
 celeste 5 cel ele est les ste 
 celeste's 7 cel e's ele est les ste te' 
+celgene 5 cel elg ene gen lge 
+celgene's 7 cel e's elg ene gen lge ne' 
 celia 3 cel eli lia 
 celia's 5 a's cel eli ia' lia 
 celina 4 cel eli ina lin 
@@ -3863,6 +3881,8 @@ clio 2 cli lio
 clio's 4 cli io' lio o's 
 clive 3 cli ive liv 
 clive's 5 cli e's ive liv ve' 
+clojure 5 clo jur loj oju ure 
+clojure's 7 clo e's jur loj oju re' ure 
 clorets 5 clo ets lor ore ret 
 clorets's 7 clo ets lor ore ret s's ts' 
 clorox 4 clo lor oro rox 
@@ -4124,6 +4144,8 @@ cordilleras 9 cor dil era ill ler lle ord ras rdi
 cordilleras's 11 as' cor dil era ill ler lle ord ras rdi s's 
 cordoba 5 cor dob oba ord rdo 
 cordoba's 7 a's ba' cor dob oba ord rdo 
+cordova 5 cor dov ord ova rdo 
+cordova's 7 a's cor dov ord ova rdo va' 
 corey 3 cor ore rey 
 corey's 5 cor ey' ore rey y's 
 corfu 3 cor orf rfu 
@@ -4193,6 +4215,8 @@ cory 2 cor ory
 cory's 4 cor ory ry' y's 
 cosby 3 cos osb sby 
 cosby's 5 by' cos osb sby y's 
+cosmosdb 6 cos mos osd osm sdb smo 
+cosmosdb's 8 b's cos db' mos osd osm sdb smo 
 cossack 5 ack cos oss sac ssa 
 cossack's 7 ack ck' cos k's oss sac ssa 
 costco 4 cos ost stc tco 
@@ -4957,6 +4981,8 @@ dixon 3 dix ixo xon
 dixon's 5 dix ixo n's on' xon 
 djakarta 6 aka art dja jak kar rta 
 djakarta's 8 a's aka art dja jak kar rta ta' 
+django 4 ang dja jan ngo 
+django's 6 ang dja go' jan ngo o's 
 djibouti 6 bou dji ibo jib out uti 
 djibouti's 8 bou dji i's ibo jib out ti' uti 
 dmitri 4 dmi itr mit tri 
@@ -5145,6 +5171,8 @@ drudge 4 dge dru rud udg
 drudge's 6 dge dru e's ge' rud udg 
 druid 3 dru rui uid 
 druid's 5 d's dru id' rui uid 
+drupal 4 dru pal rup upa 
+drupal's 6 al' dru l's pal rup upa 
 dryden 4 den dry ryd yde 
 dryden's 6 den dry en' n's ryd yde 
 dschubba 6 bba chu dsc hub sch ubb 
@@ -5252,6 +5280,8 @@ dyer 2 dye yer
 dyer's 4 dye er' r's yer 
 dylan 3 dyl lan yla 
 dylan's 5 an' dyl lan n's yla 
+dynamodb 6 amo dyn mod nam odb yna 
+dynamodb's 8 amo b's db' dyn mod nam odb yna 
 dyson 3 dys son yso 
 dyson's 5 dys n's on' son yso 
 dzerzhinsky 9 dze erz hin ins nsk rzh sky zer zhi 
@@ -5422,6 +5452,8 @@ elam 2 ela lam
 elam's 4 am' ela lam m's 
 elanor 4 ano ela lan nor 
 elanor's 6 ano ela lan nor or' r's 
+elasticsearch 11 arc ast cse ear ela ics las rch sea sti tic 
+elasticsearch's 13 arc ast ch' cse ear ela h's ics las rch sea sti tic 
 elastoplast 9 ast ast ela las las opl pla sto top 
 elastoplast's 11 ast ast ela las las opl pla st' sto t's top 
 elba 2 elb lba 
@@ -5687,6 +5719,8 @@ eris 2 eri ris
 eris's 4 eri is' ris s's 
 eritrea 5 eri itr rea rit tre 
 eritrea's 7 a's ea' eri itr rea rit tre 
+erlang 4 ang erl lan rla 
+erlang's 6 ang erl g's lan ng' rla 
 erlenmeyer 8 enm erl eye len mey nme rle yer 
 erlenmeyer's 10 enm er' erl eye len mey nme r's rle yer 
 erma 2 erm rma 
@@ -6111,6 +6145,8 @@ finnish's 7 fin h's inn ish nis nni sh'
 finns 3 fin inn nns 
 fiona 3 fio ion ona 
 fiona's 5 a's fio ion na' ona 
+firebase 6 ase bas eba fir ire reb 
+firebase's 8 ase bas e's eba fir ire reb se' 
 firefox 5 efo fir fox ire ref 
 firefox's 7 efo fir fox ire ox' ref x's 
 firestone 7 est fir ire one res sto ton 
@@ -7264,6 +7300,8 @@ h 0
 h's 1 h's 
 hbo 1 hbo 
 hbo's 3 bo' hbo o's 
+hbase 3 ase bas hba 
+hbase's 5 ase bas e's hba se' 
 hsbc 2 hsb sbc 
 hsbc's 4 bc' c's hsb sbc 
 haas 2 aas haa 
@@ -7276,6 +7314,8 @@ hadar 3 ada dar had
 hadar's 5 ada ar' dar had r's 
 hades 3 ade des had 
 hades's 5 ade des es' had s's 
+hadoop 4 ado doo had oop 
+hadoop's 6 ado doo had oop op' p's 
 hadrian 5 adr dri had ian ria 
 hadrian's 7 adr an' dri had ian n's ria 
 hafiz 3 afi fiz haf 
@@ -7713,6 +7753,8 @@ herod 3 ero her rod
 herod's 5 d's ero her od' rod 
 herodotus 7 dot ero her odo otu rod tus 
 herodotus's 9 dot ero her odo otu rod s's tus us' 
+heroku 4 ero her oku rok 
+heroku's 6 ero her ku' oku rok u's 
 herrera 5 era err her rer rre 
 herrera's 7 a's era err her ra' rer rre 
 herrick 5 err her ick ric rri 
@@ -8124,6 +8166,8 @@ huntley 5 hun ley ntl tle unt
 huntley's 7 ey' hun ley ntl tle unt y's 
 huntsville 8 hun ill lle nts svi tsv unt vil 
 huntsville's 10 e's hun ill le' lle nts svi tsv unt vil 
+hurd 2 hur urd 
+hurd's 4 d's hur rd' urd 
 hurley 4 hur ley rle url 
 hurley's 6 ey' hur ley rle url y's 
 huron 3 hur ron uro 
@@ -9604,6 +9648,8 @@ kossuth 5 kos oss ssu sut uth
 kossuth's 7 h's kos oss ssu sut th' uth 
 kosygin 5 gin kos osy syg ygi 
 kosygin's 7 gin in' kos n's osy syg ygi 
+kotlin 4 kot lin otl tli 
+kotlin's 6 in' kot lin n's otl tli 
 koufax 4 fax kou ouf ufa 
 koufax's 6 ax' fax kou ouf ufa x's 
 kowloon 5 kow loo oon owl wlo 
@@ -11088,6 +11134,8 @@ mari 2 ari mar
 mari's 4 ari i's mar ri' 
 maria 3 ari mar ria 
 maria's 5 a's ari ia' mar ria 
+mariadb 5 adb ari iad mar ria 
+mariadb's 7 adb ari b's db' iad mar ria 
 marian 4 ari ian mar ria 
 marian's 6 an' ari ian mar n's ria 
 mariana 5 ana ari ian mar ria 
@@ -11302,6 +11350,8 @@ matilda 5 ati ild lda mat til
 matilda's 7 a's ati da' ild lda mat til 
 matisse 5 ati iss mat sse tis 
 matisse's 7 ati e's iss mat se' sse tis 
+matlab 4 atl lab mat tla 
+matlab's 6 ab' atl b's lab mat tla 
 mattel 4 att mat tel tte 
 mattel's 6 att el' l's mat tel tte 
 matterhorn 8 att erh hor mat orn rho ter tte 
@@ -11590,6 +11640,8 @@ melville 6 elv ill lle lvi mel vil
 melville's 8 e's elv ill le' lle lvi mel vil 
 melvin 4 elv lvi mel vin 
 melvin's 6 elv in' lvi mel n's vin 
+memcached 7 ach cac che emc hed mca mem 
+memcached's 9 ach cac che d's ed' emc hed mca mem 
 memling 5 eml ing lin mem mli 
 memling's 7 eml g's ing lin mem mli ng' 
 memphis 5 emp his mem mph phi 
@@ -12074,6 +12126,8 @@ monera 4 era mon ner one
 monera's 6 a's era mon ner one ra' 
 monet 3 mon net one 
 monet's 5 et' mon net one t's 
+mongodb 5 god mon ngo odb ong 
+mongodb's 7 b's db' god mon ngo odb ong 
 mongol 4 gol mon ngo ong 
 mongol's 6 gol l's mon ngo ol' ong 
 mongolia 6 gol lia mon ngo oli ong 
@@ -12374,6 +12428,8 @@ mutsuhito 7 hit ito mut suh tsu uhi uts
 mutsuhito's 9 hit ito mut o's suh to' tsu uhi uts 
 muzak 3 muz uza zak 
 muzak's 5 ak' k's muz uza zak 
+mysql 3 mys sql ysq 
+mysql's 5 l's mys ql' sql ysq 
 myspace 5 ace mys pac spa ysp 
 myspace's 7 ace ce' e's mys pac spa ysp 
 myanmar 5 anm mar mya nma yan 
@@ -12413,6 +12469,8 @@ norad 3 nor ora rad
 norad's 5 ad' d's nor ora rad 
 nsa 1 nsa 
 nsa's 3 a's nsa sa' 
+nvidia 4 dia idi nvi vid 
+nvidia's 6 a's dia ia' idi nvi vid 
 na 0 
 na's 2 a's na' 
 nabisco 5 abi bis isc nab sco 
@@ -12624,6 +12682,8 @@ nembutal 6 but emb mbu nem tal uta
 nembutal's 8 al' but emb l's mbu nem tal uta 
 nemesis 5 eme esi mes nem sis 
 nemesis's 7 eme esi is' mes nem s's sis 
+neo 1 neo 
+neo's 3 eo' neo o's 
 neogene 5 ene eog gen neo oge 
 neogene's 7 e's ene eog gen ne' neo oge 
 neolithic 7 eol hic ith lit neo oli thi 
@@ -13028,6 +13088,8 @@ oberlin 5 ber erl lin obe rli
 oberlin's 7 ber erl in' lin n's obe rli 
 oberon 4 ber ero obe ron 
 oberon's 6 ber ero n's obe on' ron 
+ocaml 3 aml cam oca 
+ocaml's 5 aml cam l's ml' oca 
 occam 3 cam cca occ 
 occam's 5 am' cam cca m's occ 
 occident 6 cci cid den ent ide occ 
@@ -13369,6 +13431,8 @@ ozzie 3 ozz zie zzi
 ozzie's 5 e's ie' ozz zie zzi 
 p 0 
 p's 1 p's 
+php 1 php 
+php's 3 hp' p's php 
 pa 0 
 pa's 2 a's pa' 
 paar 2 aar paa 
@@ -14123,6 +14187,8 @@ poseidon 6 don eid ido ose pos sei
 poseidon's 8 don eid ido n's on' ose pos sei 
 post 2 ost pos 
 post's 4 ost pos st' t's 
+postgresql 8 esq gre ost pos res sql stg tgr 
+postgresql's 10 esq gre l's ost pos ql' res sql stg tgr 
 potemkin 6 emk kin mki ote pot tem 
 potemkin's 8 emk in' kin mki n's ote pot tem 
 potomac 5 mac oma oto pot tom 
@@ -14205,6 +14271,8 @@ pribilof 6 bil ibi ilo lof pri rib
 pribilof's 8 bil f's ibi ilo lof of' pri rib 
 price 3 ice pri ric 
 price's 5 ce' e's ice pri ric 
+priceline 7 cel eli ice ine lin pri ric 
+priceline's 9 cel e's eli ice ine lin ne' pri ric 
 priestley 7 est ies ley pri rie stl tle 
 priestley's 9 est ey' ies ley pri rie stl tle y's 
 prince 4 inc nce pri rin 
@@ -14357,6 +14425,8 @@ putnam 4 nam put tna utn
 putnam's 6 am' m's nam put tna utn 
 puzo 2 puz uzo 
 puzo's 4 o's puz uzo zo' 
+pytorch 5 orc pyt rch tor yto 
+pytorch's 7 ch' h's orc pyt rch tor yto 
 pygmalion 7 ali gma ion lio mal pyg ygm 
 pygmalion's 9 ali gma ion lio mal n's on' pyg ygm 
 pygmies 5 gmi ies mie pyg ygm 
@@ -14409,6 +14479,8 @@ quaalude's 8 aal alu de' e's lud qua uaa ude
 quaker 4 ake ker qua uak 
 quaker's 6 ake er' ker qua r's uak 
 quakers 5 ake ers ker qua uak 
+qualcomm 6 alc com lco omm qua ual 
+qualcomm's 8 alc com lco m's mm' omm qua ual 
 quaoar 4 aoa oar qua uao 
 quaoar's 6 aoa ar' oar qua r's uao 
 quasimodo 7 asi imo mod odo qua sim uas 
@@ -14463,6 +14535,8 @@ r 0
 r's 1 r's 
 rca 1 rca 
 rca's 3 a's ca' rca 
+rds 1 rds 
+rds's 3 ds' rds s's 
 ra 0 
 ra's 2 a's ra' 
 rabat 3 aba bat rab 
@@ -14616,8 +14690,12 @@ redford 5 dfo edf for ord red
 redford's 7 d's dfo edf for ord rd' red 
 redgrave 6 ave dgr edg gra rav red 
 redgrave's 8 ave dgr e's edg gra rav red ve' 
+redis 3 dis edi red 
+redis's 5 dis edi is' red s's 
 redmond 5 dmo edm mon ond red 
 redmond's 7 d's dmo edm mon nd' ond red 
+redshift 6 dsh eds hif ift red shi 
+redshift's 8 dsh eds ft' hif ift red shi t's 
 reebok 4 bok ebo eeb ree 
 reebok's 6 bok ebo eeb k's ok' ree 
 reed 2 eed ree 
@@ -15235,6 +15313,8 @@ sap 1 sap
 sap's 3 ap' p's sap 
 sars 2 ars sar 
 sars's 4 ars rs' s's sar 
+sqlite 4 ite lit qli sql 
+sqlite's 6 e's ite lit qli sql te' 
 suse 2 sus use 
 suse's 4 e's se' sus use 
 svn 1 svn 
@@ -15329,6 +15409,8 @@ salem 3 ale lem sal
 salem's 5 ale em' lem m's sal 
 salerno 5 ale ern ler rno sal 
 salerno's 7 ale ern ler no' o's rno sal 
+salesforce 8 ale esf for les orc rce sal sfo 
+salesforce's 10 ale ce' e's esf for les orc rce sal sfo 
 salinas 5 ali ina lin nas sal 
 salinas's 7 ali as' ina lin nas s's sal 
 salinger 6 ali ger ing lin nge sal 
@@ -15898,6 +15980,8 @@ shantung 6 ant han ntu sha tun ung
 shantung's 8 ant g's han ng' ntu sha tun ung 
 shapiro 5 api hap iro pir sha 
 shapiro's 7 api hap iro o's pir ro' sha 
+sharepoint 8 are epo har int oin poi rep sha 
+sharepoint's 10 are epo har int nt' oin poi rep sha t's 
 shari 3 ari har sha 
 shari'a 5 ari har i'a ri' sha 
 shari'a's 7 'a' a's ari har i'a ri' sha 
@@ -17094,6 +17178,8 @@ tennyson 6 enn nny nys son ten yso
 tennyson's 8 enn n's nny nys on' son ten yso 
 tenochtitlan 10 cht eno hti itl lan noc och ten tit tla 
 tenochtitlan's 12 an' cht eno hti itl lan n's noc och ten tit tla 
+tensorflow 8 ens flo low nso orf rfl sor ten 
+tensorflow's 10 ens flo low nso orf ow' rfl sor ten w's 
 teotihuacan 9 aca can eot hua ihu oti teo tih uac 
 teotihuacan's 11 aca an' can eot hua ihu n's oti teo tih uac 
 terence 5 enc ere nce ren ter 
@@ -17879,6 +17965,8 @@ uzi 1 uzi
 uzi's 3 i's uzi zi' 
 v 0 
 v's 1 v's 
+vba 1 vba 
+vba's 3 a's ba' vba 
 vader 3 ade der vad 
 vader's 5 ade der er' r's vad 
 vaduz 3 adu duz vad 
@@ -18265,6 +18353,8 @@ walesa 4 ale esa les wal
 walesa's 6 a's ale esa les sa' wal 
 walgreen 6 alg een gre lgr ree wal 
 walgreen's 8 alg een en' gre lgr n's ree wal 
+walgreens 7 alg een ens gre lgr ree wal 
+walgreens's 9 alg een ens gre lgr ns' ree s's wal 
 walker 4 alk ker lke wal 
 walker's 6 alk er' ker lke r's wal 
 walkman 5 alk kma lkm man wal 
@@ -18704,6 +18794,8 @@ worcester's 9 ces er' est orc r's rce ste ter wor
 worcesters 8 ces ers est orc rce ste ter wor 
 worcestershire 12 ces ers est hir ire orc rce rsh shi ste ter wor 
 worcestershire's 14 ces e's ers est hir ire orc rce re' rsh shi ste ter wor 
+wordpress 7 dpr ess ord pre rdp res wor 
+wordpress's 9 dpr ess ord pre rdp res s's ss' wor 
 wordsworth 8 dsw ord ort rds rth swo wor wor 
 wordsworth's 10 dsw h's ord ort rds rth swo th' wor wor 
 workman 5 kma man ork rkm wor 
@@ -18755,6 +18847,8 @@ x 0
 x's 1 x's 
 xemacs 4 acs ema mac xem 
 xemacs's 6 acs cs' ema mac s's xem 
+xamarin 5 ama ari mar rin xam 
+xamarin's 7 ama ari in' mar n's rin xam 
 xanadu 4 adu ana nad xan 
 xanadu's 6 adu ana du' nad u's xan 
 xanthippe 7 ant hip ipp nth ppe thi xan 
@@ -54864,6 +54958,8 @@ hysterically 10 all cal eri hys ica lly ric ste ter yst
 hysterics 7 eri hys ics ric ste ter yst 
 hysterics's 9 cs' eri hys ics ric s's ste ter yst 
 i 0 
+ios 1 ios 
+ios's 3 ios os' s's 
 ipad 2 ipa pad 
 ipad's 4 ad' d's ipa pad 
 iphone 4 hon iph one pho 

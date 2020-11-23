@@ -4,7 +4,6 @@
 #include <vector>
 #include <cctype>
 #include "dictionary.h"
-
 using std::string;
 using std::vector;
 using std::cin;

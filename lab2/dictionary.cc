@@ -9,6 +9,7 @@
 #include "dictionary.h"
 #include <sstream>
 #include <iterator>
+//#include "windows.h"
 using namespace std;
 
 Dictionary::Dictionary()
@@ -20,14 +21,22 @@ Dictionary::Dictionary()
 	{
 		string tmp = line.substr(0, line.find(" "));
 		wordlist.insert(tmp);
-		vector<string> trigrams;
+		vector<string> trigrams {};
 		string a = line.substr(line.find(" ",2), line.size()-1);
-		istringstream stream(a);
+		stringstream stream; 
+		stream << a;
 		string s;
-		while (stream >> s)
-		{
-			trigrams.push_back(s); // Kunde använt iterator här?
+		istream_iterator<string> begin(stream);
+		istream_iterator<string> end;
+		vector<string> vstrings(begin, end);
+		for(unsigned int i = 0; i<vstrings.size(); i++){
+			trigrams.push_back(vstrings[i]);
 		}
+		//while( getline(stream,s) )
+		//{
+		//	cout << s << endl;
+		//	trigrams.push_back(s); // Kunde använt iterator här?
+		//}
 		words[tmp.length()].push_back(Word(tmp, trigrams));
 	}
 }
@@ -46,8 +55,6 @@ void get_trigrams(vector<string> &trigrams, const string &line)
 // Supposed to be fast
 bool Dictionary::contains(const string &word) const
 {
-	// snabb???
-	//cout << words[word.length()] << endl;
 	bool check = false;
 	if (wordlist.find(word) != wordlist.end())
 	{
@@ -60,16 +67,16 @@ void Dictionary::add_trigram_suggestions(vector<string> &suggestions, const stri
 {
 	// Find suggestions which contain atleast half trigrams in word
 	int l = word.length();
-	vector<string> trigrams;
-	get_trigrams(trigrams, word);
+	vector<string> tri{};
+	get_trigrams(tri, word);
 	if(word.length()>3){
-		for (unsigned int i = 0; i < words[l].size()-1; i++)
-		{
-			for(unsigned int k=0; k<4;k++){	
-				if(words[l-2+k].begin()!=words[l-2+k].end()){	// if not empty	
-					if (words[l-2+k][i].get_matches(trigrams) >= trigrams.size() / 2 )
+		for(unsigned int k=0; k<3;k++){	
+			for (unsigned int i = 0; i < words[l-1+k].size(); i++){
+				if(words[l-1+k].begin()!=words[l-1+k].end() && !tri.empty())
+				{	// if not empty	
+					if (words[l-1+k][i].get_matches(tri) >= tri.size() / 2 )
 					{
-						suggestions.push_back(words[l][i].get_word());
+						suggestions.push_back(words[l-1+k][i].get_word());
 					}
 				}
 			}
@@ -77,6 +84,11 @@ void Dictionary::add_trigram_suggestions(vector<string> &suggestions, const stri
 	}
 }
 
+
+
+// ----------------------
+// Hjälpfunktioner
+// ----------------------
 // get int element in pair
 int get_first( pair<int, string> i ){ 
 	return i.first; 
@@ -85,8 +97,7 @@ int get_first( pair<int, string> i ){
 string get_second( pair<int, string> i ){ 
 	return i.second; 
 	}
-
-
+// comparison for sorting in the rank method	
 bool myComparison(const pair<int,string> &a,const pair<int,string> &b)
 {
        return a.first<b.first;
@@ -99,8 +110,6 @@ void Dictionary::rank_suggestions(vector<string> &suggestions, const string &wor
 	for (unsigned int k = 0; k < suggestions.size(); k++)
 	{
 		int alt_1 = 1000;
-		int alt_2 = 1000;
-		int alt_3 = 1000;
 		int p = word.length();
 		int q = suggestions[k].length();
 		// Loop over cost
@@ -124,18 +133,14 @@ void Dictionary::rank_suggestions(vector<string> &suggestions, const string &wor
 				{
 					alt_1 = d[i - 1][j - 1] + 1;
 				}
-				
-			//	int alt_2 = d[i - 1][j] + 1;
-			//	int alt_3 = d[i][j - 1] + 1;
-				
 				d[i][j] = min({alt_1, d[i-1][j]+1, d[i][j-1]+1});
-
-				cout << d[i][j] << endl;
 			}
 		}
 		temp.push_back(make_pair(d[p-1][q-1],suggestions[k]));
 	}
+
 	std::sort(temp.begin(),temp.end(),myComparison);
+
 	for(unsigned int i=0;i<suggestions.size();i++){
 		suggestions[i]=get_second(temp[i]);
 	}
